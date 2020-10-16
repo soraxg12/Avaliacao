@@ -22,7 +22,7 @@ formulario.addEventListener('submit', (e) => {
             fornecedores.appendChild(li);
         }else if(Email.indexOf(inputEmail.value)!==-1){
             console.log('elemento encontrado')
-            alert('o email ja esta cadastrado')
+            alert('o email ja esta cadastrado !!!')
         }
 
        
