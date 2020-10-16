@@ -23,7 +23,6 @@ formulario.addEventListener('submit', (e) => {
         }else if(Email.indexOf(inputEmail.value)!==-1){
             console.log('elemento encontrado')
             alert('o email ja esta cadastrado')
-            throw Error("não é possivel cadastrar dois emails iguais")
         }
 
        
